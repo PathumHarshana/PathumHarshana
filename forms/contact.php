@@ -12,11 +12,11 @@
 $receiving_email_address = 'pathumharshana2018@gmail.com';
 
 // Check if library exists
-if (file_exists('../assets/vendor/php-email-form/php-email-form.php')) {
-    include('../assets/vendor/php-email-form/php-email-form.php');
-} else {
-    die('Unable to load the "PHP Email Form" Library!');
-}
+// if (file_exists('../assets/vendor/php-email-form/php-email-form.php')) {
+//     include('../assets/vendor/php-email-form/php-email-form.php');
+// } else {
+//     die('Unable to load the "PHP Email Form" Library!');
+// }
 
 // Create form instance
 $contact = new PHP_Email_Form;
